@@ -62,11 +62,11 @@ body::-webkit-scrollbar-thumb {
     rgba(235, 235, 235, 1) 100%
   );
   border-image-slice: 1;
+  transition: all 0.8s linear;
 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .gridContainer > img:hover {
   transform: scale(1.6);
-  transition: 1s;
 }
